@@ -27,4 +27,4 @@ az group deployment create --verbose --name "$dplyname" --resource-group "$rgnam
 
 #Reference
 #az group deployment create --verbose --name WorkshopEnv00 --resource-group mtab-tracka-rg --template-uri https://raw.githubusercontent.com/AndySimmons/AppWorkshop/master/IaaS2PaaSWeb/Environments/WorkshopEnv.json
-#az group deployment create --verbose --name WorkshopEnv00 --resource-group mtab-trackaportal-rg --template-uri https://raw.githubusercontent.com/AndySimmons/AppWorkshop/master/IaaS2PaaSWeb/Environments/WorkshopEnv.json
+az group deployment create --verbose --name WorkshopEnv00 --resource-group mtab-trackaportal-rg --template-uri https://raw.githubusercontent.com/AndySimmons/AppWorkshop/master/IaaS2PaaSWeb/Environments/WorkshopEnv.json
